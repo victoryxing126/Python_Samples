@@ -19,3 +19,4 @@ def binomial_coef(n,k):
     pascalTriangle=pascal_triangle(n)
     return(pascalTriangle[n][k-1])
             
+binomial_coef(10, 3)
