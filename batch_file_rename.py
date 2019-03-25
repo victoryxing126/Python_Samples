@@ -35,7 +35,6 @@ def batch_rename(work_dir, old_ext, new_ext):
                 os.path.join(work_dir, newfile)
             )
 
-
 def get_parser():
     parser = argparse.ArgumentParser(description='change extension of files in a working directory')
     parser.add_argument('work_dir', metavar='WORK_DIR', type=str, nargs=1,
