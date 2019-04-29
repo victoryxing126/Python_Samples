@@ -68,7 +68,7 @@ class CreditCard:
         return cls(card_to_check)
 
 
-card_number = input()
+card_number = input("Enter Card Number: ")
 card = CreditCard.set_card(card_number)
 print(card.company)
 print('Card : ', card.card_no)
