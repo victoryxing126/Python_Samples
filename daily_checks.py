@@ -55,7 +55,6 @@ def euroclear_docs():
 
 # End of the functions
 
-
 # Start of the Main Program
 def main():
     filename = sys.argv[0]  # Create the variable filename
