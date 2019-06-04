@@ -1,4 +1,4 @@
-import simplegui
+import simpleguitk
 import random
 
 def new_game():
@@ -48,7 +48,7 @@ def draw(canvas):
             canvas.draw_text( str(card1[i]), [ 15 + gap, 65], 50, 'White')
         gap += 50
 
-frame = simplegui.create_frame("Memory", 800, 100)
+frame = simpleguitk.create_frame("Memory", 800, 100)
 frame.add_button("Reset", new_game)
 label = frame.add_label("Turns = 0")
 
