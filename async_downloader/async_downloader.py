@@ -1,3 +1,4 @@
+#coding=utf-8
 """
 It's example of usage asyncio+aiohttp to downloading.
 
@@ -45,7 +46,6 @@ def download(ways):
         print('failure:')
         for file in failure_files:
             print(file)
-
 
 async def async_downloader(ways, loop, success_files=set(), failure_files=set()):
 
